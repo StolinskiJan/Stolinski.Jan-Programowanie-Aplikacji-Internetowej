@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    blacground-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.header:hover{
+    background-color: #addd;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #fff;
+    transition: background-coor 0.3;
+}
+
+textarea:focus {
+    background-color: #dfffdf;
+}
+
+button {
+    padding: 6px;
+    margin-top: 10px;
+}
+
+button:hover{
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.invalid{
+    border: 2px solid red;
+}

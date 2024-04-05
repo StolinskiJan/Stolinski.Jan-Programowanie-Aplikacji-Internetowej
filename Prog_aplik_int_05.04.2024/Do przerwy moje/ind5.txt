@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktywna strona zdarzeń</title>
+    
+</head>
+<body>
+  <div class="header" id="pageHeader">Interaktywna Strona Zdarzeń</div>
+  <textarea id="keyLogger" placeholder="Tutaj wpisz text" cols="30" rows="10"></textarea>
+  <button onclick="changeBackground()">Zmień tło</button>
+  <button onclick="showDateTime()">Pokaż datę i czas</button>
+  <button onclick="resetChanges()">Resetuj zmiany</button>
+
+  <script>
+	document.addEventListener('DOMContentLoaded', (event) =>{
+		document.body.style.transition = 'background-color 0.5';
+
+		const keyLogger = document.getElementById('keyLogger');
+		keyLogger.addEventListener('keypress', (evet) => {
+			if (event.key >= '0' && event.key <= '9'){
+				event.preventDefault();
+			}
+		});
+
+		keyLogger.addEventListener('focus', (event) => {
+			event.target.style.backgroundColor = '#dfffdf';
+		});
+
+		keyLogger.addEventListener('blur', (event) =>{
+			event.target.style.backgroundColor = '#fff';
+			validateInput(event.target);
+		});
+
+	});
+
+	function validateInput(){
+		
+	}
+  </script>
+</body>
+</html>
