@@ -1,0 +1,25 @@
+Zadanie: Stwórz stronę internetową, która będzie reagować na zdarzenia myszy i klawiatury. Twoim zadaniem jest
+zaimplementowanie funkcjonalności zgodnie z poniższymi punktami, tworząc pliki HTML i CSS.
+1. Nagłówek:
+o Upewnij się, że nagłówek strony zmienia kolor po najechaniu kursorem myszy.
+2. Obszar tekstowy:
+o Zaimplementuj obsługę zdarzeń klawiatury, aby obszar tekstowy rejestrował wprowadzane znaki, ale
+blokował wpisywanie cyfr.
+o Dodaj reakcję na zdarzenie focus, zmieniając tło obszaru tekstowego na jasnozielone.
+o Dodaj reakcję na zdarzenie blur, przywracając białe tło i wyświetlając alert o opuszczeniu pola
+tekstowego.
+3. Przyciski:
+o Zaimplementuj funkcjonalność przycisku zmieniającego tło strony.
+o Zaimplementuj funkcjonalność przycisku wyświetlającego alert z bieżącą datą i godziną.
+o Zaimplementuj funkcjonalność przycisku resetującego wszystkie wprowadzone zmiany.
+4. Walidacja danych:
+o Dodaj funkcję walidacji danych wprowadzonych w obszarze tekstowym, która będzie wywoływana
+podczas zdarzenia blur.
+o Użyj wyrażenia regularnego do sprawdzenia, czy dane zawierają tylko litery i spacje.
+5. Stylowanie:
+o Zastosuj dołączony plik CSS (style.css) do stylowania elementów strony.
+o Upewnij się, że przyciski zmieniają kolor i rozmiar czcionki po najechaniu kursorem myszy.
+6. Responsywność:
+o Sprawdź, czy strona jest responsywna i wygląda dobrze na urządzeniach mobilnych.
+7. Dobre praktyki:
+o Upewnij się, że kod HTML i CSS jest zorganizowany, czytelny i zgodny ze standardami.
