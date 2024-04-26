@@ -1,0 +1,45 @@
+<?php
+    //echo $_SERVER["REQUEST_METOD"]
+    if ($_SERVER["REQUEST_METOD"] == 'POST') {
+        //echo '<pre>';
+        //    print_r($_SERVER);
+            print_r($_POST);
+        //echo '</pre>';
+
+        $projectName = trim($_POST['projectName']);// był ram na if empty
+        $projectDescription = trim($_POST['projectDescription']);
+        $projectCategory = $_POST['projectCategory'];
+        $email = $_POST['email'];
+        $consfirmEmail = $_POST['consfirmEmail'];
+
+        $errors = array();
+
+        //walidacja danych
+        //walidacja nazwy projektu (nie może być pusta, 2-50 znaków)
+        if (empty($projectName)) {   // trim odcina spacje na początku
+            $errors[] 'Nazwa projesktu nie jst wymagana';
+        } else if (strlen($projectName) < 3 || stren($projectName) > 50) {
+            $errors[] 'Nazwa projektu musi zawierać od 3 do 50 znaków';
+        }
+
+        //walidacja kategorii projektu (nie może być pusta, 10-1000 znaków)
+        if (empty($projectDescription)) {   // trim odcina spacje na początku
+            $errors[] 'Opis projesktu nie jst wymagana';
+        } else if (strlen($projectDescription) < 10 || stren($projectDescription) > 1000) {
+            $errors[] 'Opis projektu musi zawierać od 3 do 50 znaków';
+        }
+
+        //walidacja kategorii projektu (musi być wybrana jedna z opcji)
+        if (!in_array($projectCategory, ['technology', 'education', 'ebtertainment'])){
+            $errors[] = 'Wybierz poprawną kategorię projektu';
+        }
+
+        // walidacja adresu email (musi być poprawny, oba pola muszą być identyczne)
+        if (empty($email)) {
+            $errors[]........
+        }
+        if (!errors($errors)){
+            var_dump($errors);
+        }
+    }
+?>
