@@ -1,0 +1,24 @@
+Dodaj walidację formularza:
+Sprawdź, czy pole “Imię” zawiera tylko litery i ma co najmniej 3 znaki.
+Upewnij się, że pole “Email” zawiera prawidłowy adres email.
+Wymagaj, aby pole “Wiadomość” miało co najmniej 20 znaków.
+Sprawdź, czy wybrano jedną z opcji płci.
+Sprawdź, czy zaznaczono przynajmniej jedno hobby.
+Wyświetl komunikat błędu:
+Jeśli walidacja nie przejdzie, wyświetl odpowiedni komunikat błędu obok każdego pola, które wymaga poprawy.
+Dodaj funkcję czyszczenia formularza:
+Utwórz przycisk “Wyczyść”, który zresetuje wszystkie pola formularza do stanu początkowego.
+Zaimplementuj wyświetlanie danych w czasie rzeczywistym:
+Dodaj funkcję, która będzie wyświetlać wprowadzone dane w czasie rzeczywistym pod formularzem, umożliwiając użytkownikowi podgląd wprowadzanych informacji.
+Dodaj walidację po stronie serwera:
+Po naciśnięciu przycisku “Wyślij”, dane powinny być również walidowane po stronie serwera w pliku sendData.php.
+Ulepsz wygląd formularza:
+Dodaj style CSS, aby poprawić estetykę formularza, np. animacje przy zaznaczaniu pól, efekty hover dla przycisków itp.
+Dodaj zapisywanie danych do pliku:
+Po walidacji danych po stronie klienta, zapisz dane do pliku JSON lub CSV na serwerze.
+Implementacja reakcji na zmianę koloru:
+Dodaj funkcję JavaScript, która zmieni kolor tła formularza na wybrany przez użytkownika kolor.
+Walidacja za pomocą wyrażeń regularnych:
+Użyj wyrażeń regularnych do bardziej zaawansowanej walidacji pól tekstowych.
+Dodaj funkcję przesyłania plików:
+Umożliw po dodanie do formularza opcji przesyłania plików, np. zdjęcia profilowego.

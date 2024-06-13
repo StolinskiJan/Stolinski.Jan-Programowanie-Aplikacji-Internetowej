@@ -1,0 +1,29 @@
+Zadanie na kolokwium: Aplikacja Lista Zadań
+1.	Struktura HTML (index.html):
+o	Utwórz podstawowy szkielet strony HTML5.
+o	Zdefiniuj viewport i ustaw kodowanie na UTF-8.
+o	Dodaj tytuł strony “Lista Zadań”.
+o	Stwórz kontener div z identyfikatorem app, który będzie zawierał całą aplikację.
+o	Wewnątrz kontenera app, umieść formularz z identyfikatorem taskForm do dodawania nowych zadań, składający się z pola tekstowego input i przycisku submit.
+o	Dodaj pusty element listy ul z identyfikatorem taskList, gdzie będą wyświetlane zadania.
+o	Dołącz zewnętrzne pliki CSS i JavaScript.
+2.	Stylizacja CSS (styles.css):
+o	Zastosuj stylizację grid dla całego ciała strony, aby centrować zawartość.
+o	Ustaw maksymalną szerokość kontenera aplikacji.
+o	Stylizuj formularz, używając grid do rozmieszczenia pola tekstowego i przycisku.
+o	Dodaj style dla przycisków, w tym efekt hover.
+o	Zdefiniuj klasę .done dla zadań wykonanych, aby przekreślać tekst.
+o	Stylizuj listę podzadań i poszczególne podzadania.
+3.	Logika JavaScript (scripts.js):
+o	Dodaj obsługę zdarzenia DOMContentLoaded.
+o	Zaimplementuj funkcję dodawania nowych zadań, która będzie reagować na zdarzenie submit formularza.
+o	Stwórz funkcję createTaskElement, która będzie tworzyć nowe elementy zadań z przyciskami do edycji i usuwania oraz formularzem do dodawania podzadań.
+o	Dodaj funkcje do oznaczania zadań jako wykonane, edycji treści zadań oraz usuwania zadań.
+o	Zaimplementuj obsługę podzadań, w tym dodawanie, oznaczanie jako wykonane i usuwanie.
+o	Zapisz stan aplikacji w pamięci lokalnej przeglądarki i odczytaj go przy ładowaniu strony.
+o	Dodaj komentarze wyjaśniające działanie kluczowych fragmentów kodu.
+Wskazówki:
+•	Pamiętaj o semantycznej poprawności kodu HTML.
+•	Zwróć uwagę na responsywność i dostępność aplikacji.
+•	Upewnij się, że JavaScript jest napisany w sposób, który pozwala na łatwe rozszerzenie funkcjonalności aplikacji w przyszłości.
+•	Komentarze w kodzie powinny być zwięzłe i na temat, wyjaśniając intencje za danym fragmentem kodu.
